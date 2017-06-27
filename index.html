@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>main</title>
+    <link rel="stylesheet" href="index.css">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 </head>
 <body>
+    
+    <header>
         <!-- Классы navbar и navbar-default -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <!-- Контейнер -->
@@ -22,33 +25,42 @@
         <span class="icon-bar"></span>
       </button>
       <!-- Бренд или название сайта -->
-      <a class="navbar-brand" href="#">Brand</a>
+      <a class="navbar-brand" href="#">UPQODE</a>
     </div>
     <!-- Основная часть меню -->
     <div class="collapse navbar-collapse" id="navbar-main">
     
       <!-- Содержимое основной части -->
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Ссылка 1 <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Ссылка 2</a></li>
-        <li><a href="#">Ссылка 3</a></li>
-        <li><a href="#">Ссылка 4</a></li>
-        <li><a href="#">Ссылка 5</a></li>
+          <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
         <!-- Выпадающий список -->
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Раздел <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Ссылка</a></li>
-            <li><a href="#">Ссылка</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Ссылка</a></li>
-          </ul>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shoes <span class="caret"></span></a>
+            <li class="dropdown">
+                <a href="#">Men shoes</a>
+            </li>
+              </ul>
         </li>
       </ul>
-      
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+      </form>
     </div>
   </div>
 </nav>
+
+<img id="picture" src="2.jpg" alt="adidas"></img>
+</header>
+<footer>
+    <h2>Get in touch</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5146.845010649816!2d24.0295006!3d49.8345183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1498570271419" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</footer>
  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
