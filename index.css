@@ -11,6 +11,44 @@
     width: 100%;
     height: 800px;
 }
+.h2 {
+    display: flex;
+    justify-content: center;
+}
+.ball {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50%;
+    width: 225px;
+    height: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;        
+    
+}
+
+.product {
+    display: flex;
+}
+
+#googlemaps {
+    display: block;
+	width: 100%;
+	z-index: 0;
+	
+}
+#form {
+    margin: 0 auto;
+    width: 400px;
+    height: 250px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: #eee;
+    background: rgba(0, 0, 0, 0.1);
+    color: #333;
+    z-index: 1;
+}
 /*.example2 {
     display:inline-block;   
     position:relative;
