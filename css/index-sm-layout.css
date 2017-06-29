@@ -1,44 +1,35 @@
 @media screen and (max-width: 700px) {
-     #ball1{
-        display: block;
-        position: relative;
-        width: 100%;
-     }
-    
-    #ball2{
-        display: block;
-        position: relative;
-        width: 100%;
-        
-        
-    }
-    #ball3{
-        display: block;
-        position:  relative;
-        width: 100%;
-        
-        
-    }
-    #ball4{
-        display: block;
-        position: relative;
-        width: 100%;
-        
-    }
-    #ball5{
+    #ball1 {
         display: block;
         position: relative;
         width: 100%;
     }
-    #ball6{
+    #ball2 {
         display: block;
         position: relative;
         width: 100%;
-        
     }
-    
-    .product{
+    #ball3 {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    #ball4 {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    #ball5 {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    #ball6 {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    .product {
         display: block;
     }
-    
 }
