@@ -1,7 +1,4 @@
 @media screen and (max-width: 700px) {
-    .layoutpicture {
-        display: block;
-    }
      #ball1{
         display: block;
         position: relative;
