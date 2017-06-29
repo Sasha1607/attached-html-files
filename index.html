@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>main</title>
-    <link rel="stylesheet" href="index.css">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index-sm-layout.css">
+     <link rel="stylesheet" href="css/index-layout.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 </head>
@@ -33,7 +36,7 @@
       <!-- Содержимое основной части -->
       <ul class="nav navbar-nav">
           <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="#ab">About</a></li>
         <li><a href="#word">Contact</a></li>
         <!-- Выпадающий список -->
         <li class="dropdown">
@@ -60,15 +63,16 @@
         <h2 class="hp2"> Our <div id="product1">Products</div> </h2>
     <div class="product"> 
          
-         <img class="ball" src="3.jpg" alt="product"></img>
-         <img class="ball" src="4.jpg" alt="product"></img>
-         <img class="ball" src="5.jpg" alt="product"></img>
+         <img id="ball1" src="3.jpg" alt="product"></img>
+         <img id="ball2" src="4.jpg" alt="product"></img>
+         <img id="ball3" src="5.jpg" alt="product"></img>
         
     </div>
+    
     <div class="product">
-         <img class="ball" src="6.jpg" alt="product"></img>
-         <img class="ball" src="7.jpg" alt="product"></img>
-         <img class="ball" src="8.jpg" alt="product"></img>
+         <img id="ball4" src="6.jpg" alt="product"></img>
+         <img id="ball5" src="7.jpg" alt="product"></img>
+         <img id="ball6" src="8.jpg" alt="product"></img>
     </div>
     <h1 class="h3"><div id="ab">About</div><div id="us">us</div></h1>
 <about class="about">
@@ -78,7 +82,7 @@
     Генеральный директор компании — Каспер Рорштед.</p>
     <img class="img" src="9.jpg" alt="afoto"></img>
 </about>
-
+    <img id="photo" src="adidas.png" alt="adida"></img>
 <footer>
     <h2 class="h2">Get in <div id="word">Touch</div></h2>
     <p class="p">Junior HTML-верстальщик</p>
@@ -98,6 +102,6 @@
  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
- <script type="text/javascript" src="collapse-navbar.js"></script>
+ <script type="text/javascript" src="js/collapse-navbar.js"></script>
 </body>
 </html>
